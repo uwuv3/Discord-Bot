@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 app.get("*", (r, rs) => rs.send("Naber"));
 app.post("*", (r, rs) => rs.send("Naber"));
-app.listen(3000);
+app.listen(5000);
 
 const botConfig = require("../configs/bot.json");
 /** WebSocket */

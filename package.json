@@ -1,4 +1,5 @@
-{
+{ 
+  "main": "src/index.js",
   "dependencies": {
     "@discordjs/builders": "^1.7.0",
     "discord-api-types": "^0.37.67",

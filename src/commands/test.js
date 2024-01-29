@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
-const { DiscordRequest } = require("../../functions/discordRequest");
+const { DiscordRequest } = require("../functions/discordRequest");
 const { InteractionResponseType } = require("discord-interactions");
 module.exports = {
   data: new SlashCommandBuilder()

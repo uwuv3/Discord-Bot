@@ -1,5 +1,13 @@
 {
   "token": "MTE0NDE3MzIwMTk3NTQzMTIxOQ.GolBm5.H2ePzsibIEWb2ScoI_nnyTZXSIU4s77hmAVwh8",
   "clientID": "1144173201975431219",
-  "activity": "Nabewr?"
+  "activity": "Nabewr?",
+  "memberLogger":{
+    "guildID":"1201188038739513515",
+    "channelID":"1201210241853968505",
+    "messages":{
+      "memberJoin":"{{user.username}}({{user.id}} sunucuya katıldı :)",
+      "memberLeave":"{{user.username}}({{user.id}} sunucudan ayrıldı :("
+    }
+  }
 }

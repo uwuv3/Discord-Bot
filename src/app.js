@@ -7,8 +7,6 @@ const EventEmitter = require("events");
 const eventemit = new EventEmitter();
 global.events = eventemit;
 
-require("./functions/startWeb");
-require("./command/handler");
 require("./event/handler");
 const token = botConfig.token;
 const payload = {
@@ -46,7 +44,7 @@ ws.on("message", function incoming(data) {
       break;
   }
   if (!t) return;
-  if (!t == "PRESENCE_UPDATE") console.log(t);
+  console.log(t);
   eventemit.emit(t, d);
 });
 

@@ -1,6 +1,6 @@
-const { InstallGlobalCommands } = require("../functions/discordRequest");
-const testCommand = require("./commands/test");
-const botConfig = require("../../configs/bot.json");
+const { InstallGlobalCommands } = require("../../functions/discordRequest");
+const testCommand = require("../../commands/test");
+const botConfig = require("../../../configs/bot.json");
 const dcinteraction = require("discord-interactions");
 /*
 (async () => {

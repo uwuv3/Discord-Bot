@@ -1,11 +1,3 @@
-
-const express = require("express");
-const app = express();
-app.get("*", (r, rs) => rs.send("Naber"));
-app.get("/",(r,rs)=>rs.sendStatus(200).send("UwU"))
-app.post("*", (r, rs) => rs.send("Naber"));
-app.listen(5000);
-
 const botConfig = require("../configs/bot.json");
 /** WebSocket */
 const WebSocket = require("ws");
